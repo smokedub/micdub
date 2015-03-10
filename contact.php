@@ -1,7 +1,7 @@
 <?php
 
 // Your email address
-$to = "mike@micdub.com";
+$to = mike@micdub.com;
 
 // Grab user's email address filled out on the form
 $name = trim($_POST["name"]);

@@ -49,7 +49,7 @@
 	            jQuery("#loader").css("display","block");
 	            jQuery.ajax({
 	                type:       "POST",
-	                url:        "contact.php",
+	                url:        "https://github.com/smokedub/micdub/blob/master/micdub/contact.php",
 	                cache:      false,
 	                data:        "name=" + name +"&email="+email+"&message="+message,
 	                success:    function(html) {
@@ -57,9 +57,9 @@
 	                    jQuery("#submit_button").attr("disabled", "disabled");
 	                    jQuery("#contact_form").after("<h3 class='center' id='send_message'>Message Sent!</h3>");
 	                    jQuery("#send_message").fadeIn("slow");
-	                }
-	            });
-	        }
+	                							}
+	           				 });
+	       		 }
 	
 	return false;
 	
