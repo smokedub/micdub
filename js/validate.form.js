@@ -50,7 +50,7 @@
 	            jQuery.ajax({
 	                type:       "POST",
 	                dataType:   "jsonp"
-	                url:        "https://github.com/smokedub/micdub/blob/master/micdub/contact.php",
+	                url:        "https://github.com/smokedub/micdub/blob/gh-pages/micdub/contact.php",
 	                cache:      false,
 	                data:        "name=" + name +"&email="+email+"&message="+message,
 	                success:    function(html) {
